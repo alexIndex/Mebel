@@ -1,0 +1,777 @@
+html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0; 
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+html {height: 100%;}
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.cleaerfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{ clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+
+html {height: 100%;}
+body {
+	
+	margin: 0 auto;
+	width: 100%; 
+	max-width: 1900px;
+	height: 100%;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+@font-face {
+	font-family: "DejaVuSansCondensed-Bold";
+	src: url("../fonts/DejaVuSans/DejaVuSansCondensed-Bold.ttf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "DejaVuSansBook";
+	src: url("../fonts/DejaVuSans/DejaVuSans.ttf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arsenal-BoldItalic";
+	src: url("../fonts/Arsenal/Arsenal-BoldItalic.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arsenal-Bold";
+	src: url("../fonts/Arsenal/Arsenal-Bold.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arsenal-Regular";
+	src: url("../fonts/Arsenal/Arsenal-Regular.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+/*.............ХЭДэр............ПЕрвичная секция .............*/
+
+
+
+
+/*................POpup  ................*/
+
+  #popup {
+      width: 500px;
+      height: 450px;
+      background: url(form_bg.jpg);
+      position: fixed;
+      z-index: 99999;
+      top: 60%;
+      left: 50%;
+      margin-left: -250px;
+      margin-top: -350px;
+      display: none;
+    }
+
+    #hover {
+       width: 100%;
+       height: 100%;
+       background: rgba(0,0,0,.7);
+       position: fixed;
+       top: 0;
+       left: 0;
+       z-index: 99998;
+       display: none;
+       cursor: pointer;
+
+
+    }
+
+    form img {
+    position: absolute;
+    display: block;
+      height: 400px;
+    width: auto;
+      margin: 26px -278px;
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    }
+
+/*................POpup  ................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_bg {
+	text-align: center;
+	width: 100%;
+	height: 630px;
+	z-index: 9;
+}
+
+	
+.container2 {
+	height: 827px;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+
+}
+
+	
+
+#navigation_fixed {
+    text-align: center;
+    height: 107px;
+    background: rgba(100, 64, 44, 0.45) none repeat scroll 0% 0%;
+    z-index: 1111111;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 3px;
+}
+
+/*
+#navigation_fixed.default {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0%;
+	background: rgba(228,228,288,.45);
+	z-index: 11;
+}
+*/
+
+.middle_block {
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 107px;
+	position: relative;
+
+
+}
+
+.top_parth {
+	height: 66px;
+
+}
+
+.furniture {
+	width: 418px;
+	position: absolute;
+	margin-top: 12px;
+}
+
+.furniture h4 {
+	font: 2.2em "DejaVuSansCondensed-Bold", Arial, sans-serif;
+    color: #fff;
+    text-align: left;
+}
+
+.call_us {
+	width: 494px;	
+	height: 66px;
+	position: absolute;
+	right: 0;
+
+}
+
+.phone_call_2 {
+	float: left;
+	padding-top: 14px;
+}
+
+.phone_call_2 h3 {
+	font: 25px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+    color: #fff;
+    float: left;
+    
+}
+
+.phone_call_2 img {
+	float: left;
+	margin-right: 13px;
+	margin-top: -5px;
+}
+
+.call_us .action4 {
+	 margin: 0px 0px;
+	 float: left; 
+	 padding-left: 14px;
+
+
+}
+
+.call_us .action4 .btn4_1 {
+	padding: 3px 24px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font:  18px "DejaVuSansCondensed-Bold";
+    color: #fff;
+    margin: 0px 0px;
+    float: left;
+
+}
+
+.call_us .action4 .btn4_1:hover {
+	background: rgba(255,255,255,.3);
+
+}
+
+
+.bottom_parth {
+	height: 44px;
+	
+
+}
+
+.bottom_parth li {
+	display: inline-block;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.bottom_parth li:last-child {
+	padding-right: 0px;
+
+}
+
+.bottom_parth li a {
+	 font: 1.2em "DejaVuSansCondensed-Bold";
+     color: #fff;
+     text-decoration: none;
+     padding-bottom: 13px;
+
+}
+
+.bottom_parth li a:hover {
+	border-bottom: 5px solid #fff;
+}
+
+.container2 h1 {
+    color: #FFF; 
+    position: relative;
+    font: 2.9em "DejaVuSansCondensed-Bold",Arial;
+    padding: 20%;
+   
+   
+
+    
+} 
+
+.menu-trigger {
+	display: none;
+	cursor: pointer;
+	    font: 1.2em "DejaVuSansCondensed-Bold";
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 13px;
+}
+
+
+
+/*.............ХЭДэр............ПЕрвичная секция .............*/
+
+
+
+
+
+
+
+
+
+
+.The_End {
+    max-height: 970px;
+    background: url(../img/img_bg4.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.container5 {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1113px;
+	height: 728px;
+	text-align: center;
+	position: relative;
+}
+
+
+.container5 h3 {
+	font: 30px "Arsenal-BoldItalic";
+	color: #fff;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+
+
+.container5 h1 {
+    padding-top: 131px;
+    font: 40px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+
+.btn3 {
+	margin-top: -40px;
+    padding: 3px 24px;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #52ac62;
+    text-decoration: none;
+    font: book 18px "DejaVuSansBook";
+    color: #52ac62;
+
+}
+
+
+
+.action2 a {
+    font: 15px/24px "DejaVuSansBook";
+    color: #52AC62;
+    text-decoration: none;
+    margin-left: -28px;
+}
+
+
+.btn3:hover {
+	border: 2px solid #fff;
+	color: #07523b;
+	
+	background: rgba(255,255,255,.9);
+}
+
+.action2 {
+    margin-top: 0px;
+}
+
+.phone_call {
+	width: 290px;
+	height: 50px;
+	margin-left: 416px;
+	margin-top: 40px;
+
+}
+
+.phone_call img {
+	float: left;
+	margin-right: 15px;
+}
+
+.phone_call h3 {
+    font: 25px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    float: left;
+    margin-top: 4px;
+}
+
+.phone_call {
+    height: 50px;
+    margin-top: 24px;
+    position: absolute;
+    margin-left: 36%;
+}
+
+.end_menu {
+    width: 1095px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 242px;
+}
+
+.menu_block {
+	width: 155px;
+	height: 77px;
+	border: 2px solid #fff;
+	float: left; 
+	margin-right: 64px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.menu_block:hover {
+	background: rgba(255,255,255,.3);
+
+}
+
+
+.menu_block p { 
+	font: 18px  "DejaVuSansBook";
+	color: #fff;
+	padding: 14px 3px;
+	text-align: center;
+}
+
+.kitchen {
+	margin-top: 10px;
+}
+
+
+h2 {
+    font: 1.7em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: center;
+    margin-top: 79px;
+}
+
+.adress {
+    font: 1.2em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: center;
+    margin-top: 4px;
+}
+
+
+
+
+
+.ymaps {
+	max-width: 1200px;
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+
+}
+
+.ymaps-2-1-29-map {
+    position: relative;
+    z-index: 0;
+    display: block;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    color: #000;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    line-height: normal;
+
+        width: 1003px;
+    height: 277px;
+
+}
+
+
+
+.infmap {
+
+	
+	
+}
+
+.infmap img {
+    max-width: 1000px;
+    max-height: 400px;
+    margin-top: 44px;
+    
+}
+
+
+footer {
+	height: 40px;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+footer p {
+	margin: 0 auto;
+	position: relative;
+	font: book 18px  "DejaVuSansBook";
+	color: #2b2b2b;
+	text-align: center;
+	margin-top: 11px;
+}
+
+
+
+@media only screen and (max-width : 480px) { 
+
+	.phone_call {
+    height: 50px;
+    margin-top: 24px !important;
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+.infmap img {
+    max-width: 400px;
+    max-height: 146px;
+    margin-top: 36px;
+}
+
+ 
+
+
+
+}
+
+
+@media only screen and (max-width : 1900px) { 
+
+
+.infmap img {
+    max-width: 1000px;
+    max-height: 400px;
+    margin-top: 137px;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 1400px) { 
+
+
+
+.The_End {
+    max-height: 970px;
+    background: url(../img/img_bg4.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.infmap img {
+    max-width: 1000px;
+    max-height: 400px;
+    margin-top: 46px;
+}
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 360px) { 
+
+
+
+
+.furniture h4 {
+    font: 1.3em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: center !important;
+    margin-top: -4px;
+    margin-left: 44px !important;
+}
+
+
+
+.container5 h1 {
+    padding-top: 121px !important;
+    font: 24px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+
+.infmap img {
+    max-width: 317px;
+    max-height: 188px;
+    margin-top: 28px;
+}
+
+
+.phone_call h3 {
+    font: 20px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    float: left;
+    margin-top: 4px;
+}
+
+.phone_call img {
+    float: left;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.phone_call {
+    height: 50px;
+    margin-top: 58px;
+    position: absolute;
+    margin-left: 17% !important;
+}
+
+
+
+.bottom_parth li {
+    display: inline-block !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    background: rgba(100, 64, 44, 0.9) none repeat scroll 0% 0%;
+}
+
+h2 {
+    font: 1.3em "DejaVuSansCondensed-Bold",Arial,sans-serif !important;
+    color: #FFF;
+    text-align: center;
+    margin-top: 79px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width : 320px) { 
+
+
+	.infmap img {
+    max-width: 298px;
+    max-height: 146px;
+    margin-top: 80px;
+}
+
+
+	
+.furniture h4 {
+    font: 1.3em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: center !important;
+    margin-top: -3px;
+}
+
+
+
+.furniture h4 {
+    font: 1.3em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: center !important;
+    margin-top: -4px;
+    margin-left: 23px !important;
+}
+
+
+.phone_call {
+    height: 50px;
+    margin-top: 58px;
+    position: absolute;
+    margin-left: 19%;
+    width: 259px;
+}
+
+
+.infmap img {
+    max-width: 298px;
+    max-height: 146px;
+    margin-top: 35px;
+}
+
+.bottom_parth li {
+    display: inline-block !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    background: rgba(100, 64, 44, 0.9) none repeat scroll 0% 0%;
+}
+
+
+h2 {
+    font: 1.3em "DejaVuSansCondensed-Bold",Arial,sans-serif !important;
+    color: #FFF;
+    text-align: center;
+    margin-top: 79px;
+}
+
+
+
+}

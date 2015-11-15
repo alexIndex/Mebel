@@ -1,0 +1,2309 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1900px) {
+
+
+#popup {
+    width: 388px;
+    height: 416px;
+    background: transparent url("form_bg.jpg") repeat scroll 0% 0%;
+    position: fixed;
+    z-index: 99999;
+    top: 69%;
+    left: 53%;
+    margin-left: -250px;
+    margin-top: -350px;
+    display: none;
+}
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.contain {
+    height: 300px;
+    margin-top: 50px; 
+    margin-left: 2%; 
+}
+
+.small_descr h3 {
+    font: 24px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+}
+
+.small_descr p {
+    font: 15px/23px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+}
+
+
+.sub_descr p {
+    font: 15px/23px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+}
+
+
+
+#popup {
+    width: 388px;
+    height: 416px;
+    background: transparent url("form_bg.jpg") repeat scroll 0% 0%;
+    position: fixed;
+    z-index: 99999;
+    top: 69%;
+    left: 53%;
+    margin-left: -250px;
+    margin-top: -350px;
+    display: none;
+}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media  screen and (max-width : 960px) {
+
+
+
+    .yourself_production {
+    height: 387px;
+    background: #fff;
+}
+
+    .bottom_parth_stiky ul {
+    display: none;
+    margin-top: -5px;
+    margin-left: -11px;
+
+    }
+
+.bottom_parth_stiky li {
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background: rgba(100, 64, 44, 0.9) none repeat scroll 0% 0%;
+    text-align: left;
+    padding-left: 4%;
+}
+
+.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 549px;
+    z-index: 9;
+} 
+
+
+	.middle_block {
+    margin: 0px auto;
+    max-width: 1200px;
+    height: 107px;
+    position: relative;
+    background: rgba(100, 64, 44, 0.9);
+}
+
+
+.furniture {
+    width: 418px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 2%;
+    
+}
+
+.furniture h4 {
+    font: 2.2em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: left;
+    margin-top: -12px;
+}
+
+
+	.bottom_parth li {
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background: rgba(100, 64, 44, 0.9) none repeat scroll 0% 0%;
+    text-align: left;
+    padding-left: 2.5%;
+}
+	.call_us {
+    width: 182px;
+    height: 66px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+}
+
+ .phone_call_2 img {
+ 	width: 24px;
+ 	height: 24px;
+ }
+
+ .phone_call_2 h3 {
+    font: 15px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    float: left;
+}
+
+	.action4 {
+		display: none;
+	}
+
+.container2 h1 {
+    font: 2.1em "DejaVuSansCondensed-Bold",Arial;
+    padding: 26% 0%;
+}
+
+
+.menu-trigger {
+    display: block;
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.menu-trigger-stiky {
+    display: block;
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.bottom_parth ul {
+	display: none;
+}
+
+
+
+.container_slider {
+    width: 100%;
+    max-height: 910px;
+    text-align: center;
+    margin: 111px auto;
+}
+
+.container1 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 349px;
+    text-align: center;
+}
+
+
+.top_descr2 {
+    height: 55px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 0%;
+}
+
+
+
+.container1 {
+    margin: 13px auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 304px;
+    text-align: center;
+}
+
+
+
+.top_descr {
+    height: 45px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 2%;
+}
+
+.top_descr2 {
+    height: 45px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 0%;
+}
+
+.top_descr h2 {
+    font: 33px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+
+.top_descr2 h2 {
+    font: 33px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.small_descr h3 {
+    font: 19px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+}
+
+
+
+
+.small_descr p {
+    font: 13px/20px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+}
+
+
+
+.container_2 {
+    margin-top: 50px;
+    margin-left: 2%;
+}
+
+
+.bg_1 {
+    height: 229px;
+    background: transparent url("../img/big_bg2.jpg") no-repeat fixed center center;
+}
+
+
+.bg_2 {
+    height: 229px;
+}
+
+.container4 {
+    margin: 34px auto 0px;
+    height: 100%;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    position: relative;
+}
+
+.container4 h3 {
+    font: 19px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+ .container4 p {
+    font: 15px/23px "Arsenal-Regular"; 
+    color: #000000;
+    text-align: left;
+    padding-right: 40px; 
+}
+
+
+.arrow_1, .arrow_2, .arrow_3, .arrow_4 {
+    display: none;
+} 
+
+
+
+.small_descr5 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 20px;
+}
+
+
+.small_descr6 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-left: 264px;
+}
+
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-left: 648px;
+}
+
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 271px;
+    margin-top: 240px;
+    margin-left: 495px;
+}
+
+.arrow_3 {
+    display: block;
+    margin-left: 656px;
+    margin-top: 13px;
+}
+
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-left: 543px;
+}
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 271px;
+    margin-top: 241px;
+    margin-left: 455px;
+}
+
+
+
+.arrow_1_1 {
+    display: block !important;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 176px;
+}
+
+
+.arrow_1_2 {
+    display: block !important;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 403px;
+}
+
+
+.arrow_3 {
+    display: block;
+    margin-left: 584px;
+    margin-top: 13px;
+}   
+
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 271px;
+    margin-top: 241px;
+    margin-left: 388px;
+}
+
+.arrow_4_1 {
+    display: block;
+    margin-left: 308px;
+    margin-top: 248px;
+}
+
+.small_descr9 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-top: 239px;
+    margin-left: 123px;
+}
+
+
+.small_descr8 p {
+        padding-right: 99px;
+
+}
+
+.how_we_work {
+    height: 547px;
+}
+
+.action3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: #053627;
+    margin-top: 427px;
+}
+
+
+
+
+.container5 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 760px;
+    height: 728px;
+    text-align: center;
+    position: relative;
+}
+
+.phone_call {
+    height: 50px;
+    margin-top: 58px;
+    position: absolute;
+    margin-left: 30%;
+}
+
+
+.end_menu {
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 242px;
+}
+
+
+
+.menu_block {
+    width: 132px;
+    height: 56px;
+    border: 2px solid #FFF;
+    float: left;
+    margin-right: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.menu_block p {
+    font: 14px "DejaVuSansBook";
+    color: #FFF;
+    padding: 11px 6px;
+    text-align: center;
+}
+
+
+
+.end_menu {
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 198px;
+}
+
+footer {
+    height: 26px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.slider_box {
+    height: 837px;
+    background: #DDD none repeat scroll 0% 0%;
+    display: none;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 472px;
+    z-index: 9;
+		}
+
+	
+	.top_descr h2 {
+    font: 27px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+
+.small_descr p {
+    font: 14px/20px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+}
+
+.sub_descr p {
+    font: 14px/20px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+} 
+
+
+
+
+
+.small_descr {
+    height: 150px;
+    width: 38%;
+    display: inline-block;
+    margin-right: 11%;
+    overflow: hidden;
+}
+
+
+.contain {
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -3%;
+}
+
+  #block_correct2 {
+    height: 150px;
+    width: 47%;
+    display: inline-block;
+    margin-right: -8%;
+    }
+
+
+    #block_correct {
+    height: 150px;
+    width: 47%;
+    display: inline-block;
+    margin-right: 3%;
+    }
+
+.container1 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 432px;
+    text-align: center;
+}
+
+
+#block_correct3 {
+    height: 150px;
+    width: 36%;
+    display: inline-block;
+    margin-right: 12%;
+}
+
+
+#block_correct3 p {
+    padding-left: 0px !important;
+}
+
+.contain2 {
+    
+    margin-top: 4px;
+    margin-left: -1%;
+}
+
+.top_descr2 h2 {
+    font: 27px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+
+.sub_descr {
+    width: 44%;
+    display: inline-block;
+    margin-right: 4%;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 39px;
+}
+
+
+
+
+
+
+.block_left {
+    display: none;
+}
+
+.block_right {
+    height: 100%;
+    width: 103%;
+    display: inline-block;
+    background: #DDD none repeat scroll 0% 0%;
+}
+
+
+.specification_block h1 {
+    display: none;
+}
+
+
+.specification_block h2 {
+    font: 30px "Arsenal-BoldItalic";
+    color: #053627;
+    margin-top: 19px;
+}
+
+
+.slider_box {
+    height: 829px;
+    background: #DDD none repeat scroll 0% 0%;
+}
+
+.section2_slider {
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+       .bottom_parth_stiky ul {
+    display: none;
+    margin-top: -10px;
+    margin-left: -11px;
+} 
+
+    .menu-trigger-stiky {
+        margin-top: 3px;
+    }
+
+    #navigation_fixed {
+    	height: 48px;
+   }
+
+
+
+   .middle_block {
+   	height: 48px;
+   }
+
+   .top_parth {
+    height: 47px;
+}
+
+	.container2 h1 {
+    font: 1.1em "DejaVuSansCondensed-Bold",Arial;
+    padding: 38% 0%;
+}
+
+
+.furniture {
+    width: 418px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2%;
+}
+
+
+.furniture h4 {
+    font: 1.3em "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    text-align: left;
+    margin-top: -3px;
+}
+
+.call_us {
+    width: 182px;
+    height: 66px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+}
+
+.phone_call_2 h3 {
+    font: 15px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    float: left;
+}
+
+.phone_call_2 img {
+ 	width: 24px;
+    height: 24px;
+ 	margin-top: -4px;
+ 	margin-right: 4px;
+ }
+
+
+ .menu-trigger {
+    display: block;
+    margin-top: -21px;
+    position: absolute;
+	margin-left: 44.5%;
+    margin-right: auto;
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+
+.menu-trigger-stiky {
+    display: block;
+    margin-top: 2px;
+    position: absolute;
+    margin-left: 39.5%;
+    margin-right: auto;
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+
+.bottom_parth li {
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background: rgba(100, 64, 44, 0.9) none repeat scroll 0% 0%;
+}
+
+.bottom_parth li a {
+    font: 12px "DejaVuSansCondensed-Bold";
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+.bottom_parth li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.container_slider {
+    width: 100%;
+    max-height: 910px;
+    text-align: center;
+    margin: 53px auto;
+}
+
+
+.container2 h1 {
+    font: 1.1em "DejaVuSansCondensed-Bold",Arial;
+    padding: 26% 0%;
+}
+
+
+.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 274px;
+    z-index: 9;
+}
+
+
+.top_descr h2 {
+    font: 18px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.top_descr {
+    height: 27px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 2%;
+}
+
+
+
+
+.contain {
+    height: 300px;
+    margin-top: 15px;
+    margin-left: -3%;
+}
+
+
+.small_descr h3 {
+    font: 14px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+}
+
+
+.small_descr p {
+    font: 12px/17px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+} 
+
+.sub_descr p {
+    font: 12px/17px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 13%;
+    margin-top: 11px;
+} 
+
+
+.bg_1 {
+    height: 242px;
+    background: transparent url("../img/big_bg2.jpg") no-repeat fixed center center;
+}
+
+
+.action1 {
+    margin-top: 9%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #053627;
+}
+
+
+.top_descr2 h2 {
+    font: 18px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+
+.top_descr2 {
+    height: 29px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 0%;
+}
+
+
+
+
+.container4 {
+    margin: 34px auto 0px;
+    height: 100%;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    position: relative;
+}
+
+.container4 h3 {
+    font: 14px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+ .container4 p {
+    font: 12px/17px "Arsenal-Regular"; 
+    color: #000000;
+    text-align: left;
+    padding-right: 40px; 
+}
+
+.small_descr5 { 
+    display: block;
+    position: absolute;
+    width: 147px;
+    height: 271px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 20px;
+}
+
+
+.arrow_1_1 {
+    display: block !important;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 150px;
+}
+
+.arrow_1_2 {
+    display: none;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 403px;
+    width: 0px;
+}
+
+.small_descr6 {
+    display: block;
+    position: absolute;
+    width: 182px;
+    height: 271px;
+    margin-left: 265px;
+}
+
+.arrow_3_1 {
+    display: block;
+    margin-left: 205px;
+    margin-top: 106px;
+    transform: rotate(89deg);
+}
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    margin-left: 265px;
+    margin-top: 167px;
+}
+
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 143px;
+    height: 0px;
+    margin-top: 165px;
+    margin-left: 20px; 
+}
+
+.arrow_4_1 {
+    display: block;
+    margin-left: 171px;
+    margin-top: 171px;
+}
+
+.small_descr9 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    margin-top: 332px;
+    margin-left: 16px;
+    height: 0%;
+}
+
+
+
+ 
+
+.how_we_work {
+    height: 547px;
+}
+
+
+.action3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: #053627;
+    margin-top: 453px;
+}
+
+
+.action3 span {
+    display: none;
+}
+
+
+.container5 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 360px;
+    height: 660px;
+    text-align: center;
+    position: relative;
+}
+
+
+.The_End {
+    height: 621px;
+    background: url(../img/img_bg4.jpg) no-repeat center;
+}
+
+
+.container5 h1 {
+    padding-top: 200px;
+    font: 24px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.action2 {
+    margin-top: 29px;
+    margin-left: 21px;
+}
+
+.container2 h1 {
+    font: 1.6em "DejaVuSansCondensed-Bold",Arial;
+    padding: 26% 0%;
+}
+
+
+.phone_call {
+    height: 50px;
+    margin-top: 58px;
+    position: absolute;
+    margin-left: 10%;  
+}
+
+.end_menu {
+    display: none;
+}
+
+
+
+
+#popup {
+    width: 388px;
+    height: 416px;
+    background: transparent url("form_bg.jpg") repeat scroll 0% 0%;
+    position: fixed;
+    z-index: 99999;
+    top: 69%;
+    left: 63%;
+    margin-left: -250px;
+    margin-top: -350px;
+    display: none;
+}
+
+.button {
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    border: 0px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    padding: 10px;
+    background: #076F14 none repeat scroll 0% 0%;
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    transition: background 0.4s ease 0s;
+    cursor: pointer;
+    line-height: 0px;
+}
+
+
+.content_block_plastic .btn4_1correct {
+    padding: 3px 24px;
+    display: block;
+    cursor: pointer;
+    border: 2px solid #053627;
+    text-decoration: none;
+    font: 18px "DejaVuSansBook";
+    color: #053627;
+    width: 72%;
+    margin-bottom: 20px;
+}
+
+
+
+.content_block_plastic .btn4_1correct {
+    padding: 3px 2px;
+    display: block;
+    cursor: pointer;
+    border: 2px solid #053627;
+    text-decoration: none;
+    font: 15px "DejaVuSansBook";
+    color: #053627;
+    width: 89%;
+    margin-bottom: 20px;
+}
+
+.content_block_plastic .btn4_1correct:hover {
+    color: #fff;
+}
+
+.content_block_plastic .specification_block p {
+    font: 15px/18px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+}
+
+
+.divider h1 {
+    font: 29px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    margin-top: 12px;
+}
+
+
+.furniture {
+    width: 292px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2%;
+}
+
+
+.yourself_production {
+    height: 414px;
+    background: #FFF none repeat scroll 0% 0%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 400px) {
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 253px;
+    z-index: 9;
+}
+
+.top_descr2 h2 {
+    font: 19px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+
+}
+
+.top_descr2 {
+    height: 30px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 0%;
+}
+
+
+.arrow_3 {
+    display: none;
+    margin-left: 584px;
+    margin-top: 13px;
+}
+
+
+.b3 {
+    width: 92%;
+    max-height: 433px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width : 360px) {
+
+    .call_us {
+    width: 131px;
+    height: 34px;
+    position: absolute;
+    right: 0px;
+    top: -12px;
+}
+
+
+
+
+
+    .phone_call_2 h3 {
+    font: 12px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    float: left;
+}
+
+
+.phone_call_2 img {
+    width: 17px;
+    height: 17px;
+    margin-top: -1px;
+    margin-right: 4px;
+}
+
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 133px;
+    height: 0px;
+    margin-top: 165px;
+    margin-left: 20px;
+}
+
+
+
+.arrow_4_1 {
+    display: block;
+    margin-left: 124px;
+    margin-top: 171px;
+}
+
+
+.arrow_1_1 {
+    display: block !important;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 120px;
+}
+
+.arrow_3_1 {
+    display: block;
+    margin-left: 169px;
+    margin-top: 115px;
+    transform: rotate(89deg);
+}
+
+
+.small_descr6 {
+    display: block;
+    position: absolute;
+    width: 116px;
+    height: 271px;
+    margin-left: 239px;
+}
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    margin-left: 238px;
+    margin-top: 180px;
+    
+}
+
+
+.container4 p {
+    font: 12px/17px "Arsenal-Regular";
+    color: #000000;
+    text-align: left;
+    padding-right: 0px;
+}
+
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 108px;
+    height: 0px;
+    margin-left: 238px;
+    margin-top: 180px;
+}
+
+
+.small_descr p {
+    font: 12px/17px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 0%;
+    margin-top: 11px;
+}
+
+#block_correct2 {
+    height: 150px;
+    width: 37%;
+    display: inline-block;
+    margin-right: 0%;
+}
+
+
+.sub_descr {
+    width: 44%;
+    display: inline-block;
+    margin-right: 0%;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 39px;
+}
+
+.container_2 {
+    margin-top: 50px;
+    margin-left: 0%;
+}
+
+.top_descr2 {
+    height: 30px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 207px;
+    z-index: 9;
+}
+
+.small_descr p {
+    font: 11px/18px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 3%;
+    margin-top: 11px;
+}
+
+
+#block_correct2 {
+    height: 150px;
+    width: 77%;
+    display: inline-block;
+    margin-right: -8%;
+    }
+
+
+    #block_correct {
+    height: 150px;
+    width: 77%;
+    display: inline-block;
+    margin-right: 3%;
+    }
+
+    .small_descr {
+    height: 118px;
+    width: 77%;
+    display: inline-block;
+    margin-right: -6%;
+    overflow: hidden;
+      }  
+
+
+
+   .small_descr:last-child {
+    margin-right: -12%;
+    }
+
+    #block_correct {
+    height: 150px;
+    width: 77%;
+    display: inline-block;
+    margin-right: -10%;
+}
+
+
+.yourself_production {
+    height: 649px;
+    background: #FFF none repeat scroll 0% 0%;
+}
+
+
+.top_descr h2 {
+    font: 22px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+
+}
+
+.top_descr span {
+    display: none;
+    height: 36px;
+
+}
+
+.contain {
+    height: 600px;
+    margin-top: 35px;
+    margin-left: -14%;
+}
+
+.small_descr p {
+    font: 14px/20px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 3%;
+    margin-top: 11px;
+    max-width: 105%;
+}
+
+.small_descr h3 {
+    font: 19px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+}
+
+.container1 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 666px;
+    text-align: center;
+}
+
+
+.bg_1 {
+    height: 159px;
+    background: transparent url("../img/big_bg2.jpg") no-repeat fixed center center;
+}
+
+
+.bg_2 {
+    height: 159px;
+    background: transparent url("../img/big_bg2.jpg") no-repeat fixed center center;
+}
+
+
+#block_correct3 {
+    height: 150px;
+    width: 55%;
+    display: inline-block;
+    margin-right: 12%;
+}
+
+
+
+
+
+.top_descr2 h2 {
+    font: 19px "Arsenal-Bold";
+    color: #053627;
+    padding-bottom: 5px;
+    text-align: left;
+
+}
+
+.top_descr2 {
+    height: 30px;
+    border-bottom: 1px solid #486C61;
+    margin-left: 0%;
+}
+
+
+.contain2 {
+    margin-top: -25px;
+    margin-left: 4%;
+}
+
+
+
+
+.sub_descr {
+    width: 93%;
+    display: inline-block;
+    margin-right: 4%;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 39px;
+    padding-right: 105px;
+}
+
+.sub_descr p {
+    font: 14px/20px "Arsenal-Regular";
+    color: #000;
+    text-align: left;
+    padding-right: 3%;
+    margin-top: 11px;
+    max-width: 105%;
+}
+
+
+.action1 {
+    margin-top: 19%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #053627;
+}
+
+.container4 h3 {
+    font: 20px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+ .container4 p {
+    font: 14px/20px "Arsenal-Regular"; 
+    color: #000000;
+    text-align: left;
+    padding-right: 40px; 
+}
+
+
+
+
+
+
+
+
+.arrow_1_1 {
+    display: none;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 150px;
+    width: 0px;
+}
+
+.arrow_1_2 {
+    display: none;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 403px;
+    width: 0px;
+}
+
+
+
+.arrow_3_1 {
+    display: none;
+    margin-left: 205px;
+    margin-top: 106px;
+    transform: rotate(89deg);
+}
+
+
+
+
+
+.arrow_4_1 {
+    display: none;
+    margin-left: 171px;
+    margin-top: 171px;
+}
+
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 143px;
+    height: 0px;
+    margin-top: 571px;
+    margin-left: 20px;
+}
+
+
+
+.small_descr9 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    margin-top: 736px;
+    margin-left: 16px;
+    height: 0%;
+}
+
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    margin-left: 20px;
+    margin-top: 422px;
+}
+
+
+.small_descr6 {
+    display: block;
+    position: absolute;
+    width: 182px;
+    height: 271px;
+    margin-left: 21px;
+    margin-top: 186px;
+}
+
+
+
+.small_descr5 {
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 271px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 20px;
+}
+
+
+
+.small_descr6 {
+    display: block;
+    position: absolute;
+    width: 222px;
+    height: 271px;
+    margin-left: 21px;
+    margin-top: 107px;
+}
+
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 161px;
+    height: 0px;
+    margin-left: 20px;
+    margin-top: 293px;
+}
+
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 252px;
+    height: 0px;
+    margin-top: 428px;
+    margin-left: 20px;
+}
+
+
+.small_descr9 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    margin-top: 553px;
+    margin-left: 16px;
+    height: 0%;
+}
+
+.how_we_work {
+    height: 788px;
+}
+
+
+.action3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: #053627;
+    margin-top: 694px;
+}
+
+
+
+.container5 h1 {
+    padding-top: 200px;
+    font: 33px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+
+.phone_call {
+    height: 50px;
+    margin-top: 58px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.action2 {
+    margin-top: 29px;
+    margin-left: 21px;
+}
+
+#popup {
+    width: 250px;
+    height: 365px;
+    background: transparent url("form_bg.jpg") repeat scroll 0% 0%;
+    position: fixed;
+    z-index: 99999;
+    top: 79%;
+    left: 85%;
+    margin-left: -250px;
+    margin-top: -350px;
+    display: none;
+}
+
+
+form {
+    margin: 0px auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(71, 52, 33, 0.1) none repeat scroll 0% 0%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+}
+
+
+.container5 h1 {
+    padding-top: 80px;
+    font: 20px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.action2 {
+    margin-top: 29px;
+    margin-left: 25px;
+}
+
+.phone_call {
+    height: 50px;
+    margin-top: 58px;
+    position: absolute;
+    margin-left: 13%;
+    width: 259px;
+}
+
+.phone_call h3 {
+    font: 18px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+    color: #FFF;
+    float: left;
+    margin-top: 0px;
+}
+
+.phone_call img {
+    height: 25px !important;
+     width: 25px !important;
+    margin-right: 8px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+		
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+@media only screen and (min-width : 1024px) {
+	.container2 h1 {		
+
+	font: 2.2em "DejaVuSansCondensed-Bold",Arial;
+	 padding: 20% 0%;
+    }
+
+
+
+}
+
+
+@media  (min-width : 960px) and (max-width : 1200px) {
+
+
+    .bottom_parth_stiky li {
+    float: left;
+    padding-right: 6px;
+    padding-bottom: 20px;
+      }
+
+
+      .bottom_parth_stiky li a {
+    font: 13px "DejaVuSansCondensed-Bold";
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 7px;
+       }
+
+
+      .bottom_parth_stiky li {
+    float: left;
+    padding-right: 32px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 549px;
+    z-index: 9;
+}
+
+
+	.middle_block {
+    margin: 0px auto;
+    max-width: 946px;
+    height: 107px;
+    position: relative;
+     }
+
+
+
+    .bottom_parth li a {
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 13px;
+    font: 0.9em "DejaVuSansCondensed-Bold";
+     } 
+
+    .container1, {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 946px;
+    height: 391px;
+    text-align: center;
+    }
+
+    .container_2 {
+    margin: 38px auto;
+    width: 100%;
+    max-width: 946px;
+    
+    text-align: center;
+}
+
+
+
+	.top_descr {
+	height: 55px;
+	border-bottom: 1px solid #486c61;
+	margin-left: 2%;
+
+	}
+
+
+    .container4 {
+    margin: 38px auto;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+}
+
+.action_block {
+    position: relative;
+    margin-top: 39px;
+}
+
+.container4 h3 {
+    font: 24px "Arsenal-BoldItalic";
+    color: #053627;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+ .container4 p {
+    font: 15px/23px "Arsenal-Regular"; 
+    color: #000000;
+    text-align: left;
+    padding-right: 40px; 
+}
+
+.small_descr5 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    float: left;
+    padding-top: 0px;
+    height: 271px;
+    margin-left: 18px;
+}
+
+
+.arrow_1 {
+    display: block;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 231px;
+}
+
+
+.small_descr6 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-left: 414px;
+}
+
+
+
+.arrow_2 {
+    display: block;
+    position: absolute;
+    margin-left: 584px;
+    margin-top: 10px;
+}
+
+.small_descr7 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-left: 759px;
+}
+
+.arrow_3 {
+    display: block;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 832px;
+}
+
+.small_descr8 {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 271px;
+    margin-top: 240px;
+    margin-left: 588px;
+}
+
+
+.small_descr8 p {
+    padding-right: 143px;
+}
+
+
+.arrow_4 {
+    display: block;
+    position: absolute;
+    margin-top: 254px;
+    margin-left: 404px;
+
+}
+
+.small_descr9 {
+    display: block;
+    position: absolute;
+    width: 278px;
+    height: 271px;
+    margin-top: 242px;
+    margin-left: 167px;
+}
+
+
+
+.container5 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 960px;
+    height: 728px;
+    text-align: center;
+    position: relative;
+}
+
+
+.phone_call {
+    height: 50px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 34%;
+}
+
+
+
+.end_menu {
+    max-width: 960px;
+    height: 80px;
+    
+    margin-top: 242px;
+}
+
+
+
+.menu_block {
+    width: 16%;
+    height: 77px;
+    border: 2px solid #FFF;
+    float: left;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+    }
+
+
+.end_menu {
+    max-width: 960px;
+    height: 80px;
+    margin-top: 183px;
+}
+
+
+
+.middle_block_stiky {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 960px;
+    height: 107px;
+}
+
+
+
+
+
+	
+
+
+}
+
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container2 h1 {		
+
+	font: 2.6em "DejaVuSansCondensed-Bold",Arial;
+	padding: 20% 0%;
+    }
+	
+
+
+}
+
+@media only screen and (min-width : 1300px) {
+	
+	
+
+
+}
+
+
+@media only screen and (min-width : 1400px) {
+	
+
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 630px;
+    z-index: 9;
+    margin-bottom: 46px;
+	
+
+
+}
+
+
+	
+
+
+
+
+@media only screen and (min-width : 1500px) {
+	.container2 h1 {		
+
+	font: 3.2em "DejaVuSansCondensed-Bold",Arial;
+	padding: 20% 0%;
+    }
+
+    .main_bg {
+    text-align: center;
+    width: 100%;
+    height: 630px;
+    z-index: 9;
+    margin-bottom: 107px;
+}
+	
+
+}
+
+
+@media only screen and (min-width : 1600px) {
+
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 630px;
+    z-index: 9;
+    margin-bottom: 170px;
+}
+
+}
+
+
+
+@media only screen and (min-width : 1740px) {
+
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 630px;
+    z-index: 9;
+    margin-bottom: 230px;
+}
+
+}
+	
+
+
+@media only screen and (min-width : 1800px) {
+
+}
+	
+
+
+@media only screen and (min-width : 1900px) {
+	.main_bg {
+    text-align: center;
+    width: 100%;
+    height: 630px;
+    z-index: 9;
+    margin-bottom: 279px;
+}
+
+}
+	

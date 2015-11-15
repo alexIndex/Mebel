@@ -1,0 +1,2272 @@
+html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;  	
+	vertical-align: baseline;
+}
+html {height: 100%;}
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.cleaerfix:before, 
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{ clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+
+html {height: 100%;}
+body {
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%; 
+	max-width: 1900px;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+@font-face {
+	font-family: "DejaVuSansCondensed-Bold";
+	src: url("../fonts/DejaVuSans/DejaVuSansCondensed-Bold.ttf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "DejaVuSansBook";
+	src: url("../fonts/DejaVuSans/DejaVuSans.ttf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arsenal-BoldItalic";
+	src: url("../fonts/Arsenal/Arsenal-BoldItalic.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arsenal-Bold";
+	src: url("../fonts/Arsenal/Arsenal-Bold.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arsenal-Regular";
+	src: url("../fonts/Arsenal/Arsenal-Regular.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+/*................POpup  ................*/
+
+#popup {
+	width: 500px;
+	height: 450px;
+	background: url(form_bg.jpg);
+	position: fixed;
+	z-index: 99999;
+	top: 60%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -350px;
+	display: none;
+}
+
+#hover {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99998;
+	display: none;
+	cursor: pointer;
+
+
+}
+
+form img {
+	position: absolute;
+	display: block;
+	height: 400px;
+	width: auto;
+	margin: 26px -278px;
+
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+/*................POpup  ................*/
+
+
+
+/*.....Header........*/
+
+#section1 {
+	height: 231px;
+	max-width: 2000px;
+	width: 100%;
+	background: url(../img2/bg1.jpg) no-repeat fixed;
+	background-size: cover;
+	position: relative;
+
+}
+
+
+
+
+#navigation_fixed {
+	text-align: center;
+	height: 107px;
+	background: rgba(100, 64, 44, 0.45) none repeat scroll 0% 0%;
+	z-index: 1111111;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 3px;
+}
+
+/*
+#navigation_fixed.default {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0%;
+	background: rgba(228,228,288,.45);
+	z-index: 11;
+}
+*/
+
+.middle_block {
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 107px;
+	position: relative;
+
+
+}
+
+.top_parth {
+	height: 66px;
+
+}
+
+.furniture {
+	width: 418px;
+	position: absolute;
+	margin-top: 12px;
+}
+
+.furniture h4 {
+	font: 2.2em "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	text-align: left;
+}
+
+.call_us {
+	width: 494px;	
+	height: 66px;
+	position: absolute;
+	right: 0;
+
+}
+
+.phone_call_2 {
+	float: left;
+	padding-top: 14px;
+}
+
+.phone_call_2 h3 {
+	font: 25px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	float: left;
+
+}
+
+.phone_call_2 img {
+	float: left;
+	margin-right: 13px;
+	margin-top: -5px;
+}
+
+.call_us .action4 {
+	margin: 0px 0px;
+	float: left; 
+	padding-left: 14px;
+
+
+}
+
+.call_us .action4 .btn4_1 {
+	padding: 3px 24px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #fff;
+	text-decoration: none;
+	font:  18px "DejaVuSansCondensed-Bold";
+	color: #fff;
+	margin: 0px 0px;
+	float: left;
+
+}
+
+.call_us .action4 .btn4_1:hover {
+	background: rgba(255,255,255,.3);
+
+}
+
+
+.bottom_parth {
+	height: 44px;
+	
+
+}
+
+.bottom_parth li {
+	display: inline-block;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.bottom_parth li:last-child {
+	padding-right: 0px;
+
+}
+
+.bottom_parth li a {
+	font: 1.2em "DejaVuSansCondensed-Bold";
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 13px;
+
+}
+
+.bottom_parth li a:hover {
+	border-bottom: 5px solid #fff;
+}
+
+.container2 h1 {
+	color: #FFF; 
+	position: relative;
+	font: 2.9em "DejaVuSansCondensed-Bold",Arial;
+	padding: 20%;
+
+
+
+
+} 
+
+.menu-trigger {
+	display: none;
+	cursor: pointer;
+	font: 1.2em "DejaVuSansCondensed-Bold";
+	color: #FFF;
+	text-decoration: none;
+	padding-bottom: 13px;
+}
+
+.menu-trigger-stiky {
+	display: none;
+	cursor: pointer;
+	font: 1.2em "DejaVuSansCondensed-Bold";
+	color: #FFF;
+	text-decoration: none;
+	padding-bottom: 13px;
+}
+
+
+
+/*.............ХЭДэр............ПЕрвичная секция .............*/
+
+
+
+/*.......МЕНЮЩКА появляющаяся....*/
+
+
+
+
+#stiky_nav.default {
+
+	position: fixed;
+	z-index: 1000;
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+#stiky_nav {
+	max-width: 1899px;
+	background: rgba(100, 64, 44, 0.9) none repeat scroll 0% 0%;
+	height: 41px;
+	position: absolute;
+	top: 0px;
+	display: none;
+	width: 100%;
+
+}
+
+
+.middle_block_stiky {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1113px;
+	height: 107px;
+
+
+}
+
+
+
+.bottom_parth_stiky {
+	margin-top: 10px;
+	height: 19px;
+	margin-left: 10px;
+
+}
+
+.bottom_parth_stiky li {
+
+	padding-right: 22px;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+
+.bottom_parth_stiky li:last-child {
+	padding-right: 0px;
+}
+
+
+
+
+.bottom_parth_stiky li a {
+	font:  16px "DejaVuSansCondensed-Bold";
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 7px;
+
+}
+
+.bottom_parth_stiky li a:hover {
+	border-bottom: 3px solid #fff;
+}
+
+
+
+/*.......МЕНЮЩКА появляющаяся....*/
+
+.divider {
+	height: 60px;
+	width: 100%;
+	background: #473421;
+	position: absolute;
+	bottom: 0;
+
+}
+
+.divider h1 {
+	font: 50px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+
+}
+
+
+
+/*.....слайдер ...........*/
+
+.section2_slider {
+	height: 294px;
+	max-width: 2000px;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 45px;
+
+}
+
+.container1 {
+	width: 100%;
+	max-width: 1113px;
+	display: block;
+	margin: 0 auto;
+}
+
+.container1 {
+	width: 100%;
+	max-width: 1113px;
+}
+
+.slider {
+	height: 300px;
+	width: 1113px;
+}
+
+.bxslider {
+	width: 1020px;
+}
+
+.bxslider .slider_block {
+	cursor: pointer;
+	width: 275px;
+	overflow: hidden;
+	height: 300px;	
+
+	background: url(../img2/ithem2.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+
+	background: url(../img2/ithem2.jpg);
+	-moz-transition-property: background;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: ease;
+}
+
+.bxslider .slider_block:hover {
+	background: url(../img2/ithem.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+	
+}
+
+
+/*. . Пластиковые . .*/
+.slider_block_plastic {
+	cursor: pointer;
+	width: 275px;
+	overflow: hidden;
+	height: 300px;	
+
+	background: url(../img2/plastic_1_dark.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+
+	background: url(../img2/plastic_1_dark.jpg);
+	-moz-transition-property: background;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: ease;
+}
+
+.slider_block_plastic:hover {
+	background: url(../img2/plastic_1.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+	
+}
+.slider_block_plastic h1 {
+	font: 30px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+/*. . МАССИВ . .*/
+
+.slider_block_massive {
+	cursor: pointer;
+	width: 275px;
+	overflow: hidden;
+	height: 300px;
+	
+
+
+	background: url(../img2/massive_dark.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+
+	background: url(../img2/massive_dark.jpg);
+	-moz-transition-property: background;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: ease;
+}
+
+.slider_block_massive:hover {
+	background: url(../img2/massive.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+	
+}
+.slider_block_massive h1 {
+	font: 30px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+/*. .  МДФ . .*/
+
+.slider_block_mdf {
+	cursor: pointer;
+	width: 275px;
+	overflow: hidden;
+	height: 300px;
+	
+
+
+	background: url(../img2/mdf_dark.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+
+	background: url(../img2/mdf_dark.jpg);
+	-moz-transition-property: background;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: ease;
+}
+
+.slider_block_mdf:hover {
+	background: url(../img2/mdf.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+	
+}
+.slider_block_mdf h1 {
+	font: 30px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+/*. . rickarda . .*/
+
+.slider_block_rickarda {
+	cursor: pointer;
+	width: 275px;
+	overflow: hidden;
+	height: 300px;
+	
+
+
+	background: url(../img2/rikkarda-dark.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+
+	background: url(../img2/rikkarda-dark.jpg);
+	-moz-transition-property: background;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing-function: ease;
+}
+
+.slider_block_rickarda:hover {
+	background: url(../img2/rikkarda-72300.jpg);
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+	
+}
+.slider_block_rickarda h1 {
+	font: 30px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+/*. . . .*/
+/*. . . .*/
+/*. . . .*/
+
+
+
+
+.bxslider .slider_block h1 {
+	font: 30px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+.action4_4 {
+	display: block;
+	margin: 0px 34px;
+	margin-top: 54px;
+	position: absolute;
+
+}
+
+.btn_slider {
+	padding: 3px 24px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #fff;
+	text-decoration: none;
+	font:  18px "DejaVuSansCondensed-Bold";
+	color: #fff;
+	margin: 77px -1px;
+
+
+}
+
+
+.btn_slider:hover {
+	background: rgba(255,255,255,.3);
+
+}
+
+
+#divider_kitchen {
+	height: 8px;
+	background: #dddddd;
+
+}
+
+
+
+
+
+
+/*.....Блок для Слайдера.....*/
+
+.slider_box {
+	height: 732px;
+	background: #dddddd;
+	display: none;
+
+}
+
+.content_block {
+	width: 100%;
+	max-width: 1113px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.block_left {
+	height: 100%;
+	width: 50%;
+	float: left;
+} 
+
+.block_right {
+	height: 100%;
+	width: 50%;
+	float: right;
+}
+
+.gallery_block {
+	width: 157px;
+	height: 100%;
+	float: left;
+}
+
+.gallery_block img {
+	float: right;
+	margin-top: 35px;
+}
+
+.first_img {
+	margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+.a {
+	display: block;
+	width: 120px;
+
+}
+
+.b {
+	display: block;
+	width: 150px;
+	position: absolute;
+	margin: -31px 175px;
+}
+
+.a2 {
+	display: block;
+	width: 135px;
+	margin: 7px;
+
+}
+
+.b2 {
+	display: block;
+	width: 203px;
+	position: absolute;
+	margin: -38px 164px;
+}
+
+
+
+.a4 {
+	display: block;
+	width: 389px;
+	margin: 152px -115px;
+
+}
+
+.b4 {
+	display: block;
+	width: 389px;
+	position: absolute;
+	margin: -140px 10px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+.specification_block h3 {
+	font: 30px "Arsenal-Bold";
+	color: #000;
+}
+
+/*.....Платисковые кухни.....*/
+
+.slider_box {
+	height: 732px;
+	background: #dddddd;
+	display: none;
+
+}
+
+
+
+.content_block_plastic {
+	width: 100%;
+	max-width: 1113px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.block_left {
+	height: 100%;
+	width: 50%;
+	float: left;
+} 
+
+.block_right {
+	height: 100%;
+	width: 50%;
+	float: right;
+}
+
+.gallery_block {
+	width: 157px;
+	height: 100%;
+	float: left;
+}
+
+.gallery_block img {
+	float: right;
+	margin-top: 35px;
+}
+
+.first_img {
+	margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+.a {
+	display: block;
+	width: 120px;
+
+}
+
+.b {
+	display: block;
+	width: 150px;
+	position: absolute;
+	margin: -31px 175px;
+}
+
+.a2 {
+	display: block;
+	width: 135px;
+	margin: 7px;
+
+}
+
+.content_block_plastic .b2 {
+	display: block;
+	width: 203px;
+	position: absolute;
+	margin: -33 px 164px;
+}
+
+
+.a4 {
+	display: block;
+	width: 389px;
+	margin: 152px -115px;
+
+}
+
+.b4 {
+	display: block;
+	width: 389px;
+	position: absolute;
+	margin: -140px 10px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+.specification_block h3 {
+	font: 30px "Arsenal-Bold";
+	color: #000;
+}
+
+
+/*.....Кухни из МАССИВА.....*/
+
+
+.slider_box {
+	height: 732px;
+	background: #dddddd;
+	display: none;
+
+}
+
+
+
+.content_block_massive {
+	width: 100%;
+	max-width: 1113px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.block_left {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	z-index: 99;
+
+}
+
+.block_left img {
+	width: 550px;
+	height: 100%;
+	cursor: pointer;
+	margin-left: 1%;
+}
+
+.block_right {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	background: #DDD none repeat scroll 0% 0%;
+	z-index: 100;
+
+}
+
+.gallery_block {
+	width: 27%;
+	height: 100%;
+	display: inline-block;
+}
+
+.gallery_block img {
+	width: 80%;
+	height: auto;
+	cursor: pointer;
+}
+
+.first_img {
+	margin-top: -5px;
+}
+
+
+.specification_block {
+	width: 69%;
+	height: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+
+.specification_block h1 {
+	font: 34px "DejaVuSansCondensed-Bold",Arial,sans-serif;
+	color: #053627;
+	margin-top: 20px;
+}
+
+
+.specification_block h2 {
+	font: 26px "Arsenal-BoldItalic";
+	color: #053627;
+	margin-top: 0px;
+}
+
+
+.a {
+	display: block;
+	width: 120px;
+
+}
+
+.b {
+	display: block;
+	width: 150px;
+	position: absolute;
+	margin: -31px 175px;
+}
+
+.a2 {
+	display: block;
+	width: 135px;
+	margin: 7px;
+
+}
+
+.content_block_plastic .b2 {
+	display: block;
+	width: 203px;
+	position: absolute;
+	margin: -33 px 164px;
+}
+
+
+.a3 {
+	display: block;
+	width: 100%;
+}
+
+.b3 {
+	display: block;
+	width: 89%;
+	text-align: justify;
+}
+
+
+.a4 {
+	display: block;
+	width: 389px;
+	margin: 152px -115px;
+
+}
+
+.b4 {
+	display: block;
+	width: 389px;
+	position: absolute;
+	margin: -140px 10px;
+	text-align: justify;
+}
+
+.content_block_plastic .a5 {
+	display: inline-block;
+	width: 27%;
+	text-align: left;
+}
+
+.content_block_plastic .a6 {
+	display: inline-block;
+	font: 30px "Arsenal-Bold";
+	width: 69%;
+}
+
+.content_block_plastic .btn4_1correct {
+	padding: 3px 5px;
+	display: block;
+	cursor: pointer;
+	border: 2px solid #053627;
+	text-decoration: none;
+	font: 16px "DejaVuSansBook";
+	color: #053627;
+	width: 80%;
+}
+
+
+
+.btn4_1correct:hover {
+	display: block;
+	cursor: pointer;
+	border: 2px solid #07523b;
+	text-decoration: none;
+	color: #fff;
+	background: #07523b;
+
+}
+
+
+.wrap_slider {
+	margin-top: 39px;
+	width: 94%;
+}
+
+
+.wrap_slider p {
+	text-align: left;
+	margin-top: 12px;
+}             
+
+.action1 {
+	margin-top: 10px;
+	
+}
+
+
+
+
+
+
+.specification_block h3 {
+	font: 30px "Arsenal-Bold";
+	color: #000;
+}
+/*.....Блок для Слайдера.....*/
+/*.....Блок для Слайдера.....*/
+/*.....Блок для Слайдера.....*/
+/*.....Блок для Слайдера.....*/
+/*.....Блок для Слайдера.....*/
+/*.....Блок для Слайдера.....*/
+/*.....Блок для Слайдера.....*/
+
+
+/*......описание......*/
+
+.section3_description {
+	width: 100%;
+	max-width: 2000px;
+	height: 880px;
+
+
+}	
+
+.container3 {
+	height: 880px;
+	width: 100%;
+	max-width: 1113px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+.top_descr {
+	height: 120px;
+	border-bottom: 1px solid #486c61;
+
+}
+
+.top_descr h2 {
+	font: 40px "Arsenal-Bold";
+	color: #053627;
+	padding-top: 60px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+
+.content {
+	height: 709px;
+}
+
+.block1 {
+	height: 709px;
+	max-width: 486px;
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.block1 h2 {
+	font: 30px "Arsenal-BoldItalic";
+	color: #053627;
+	margin-top: 43px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+.block_wrapper {
+	width: 487px;
+	height: 237px;
+}
+
+.block_wrapper2 {
+	width: 487px;
+	height: 260px;
+	margin-top: 43px;
+}
+
+.min_block1 {
+	width: 150px;
+	height: 235px;
+	display: block;
+	margin-right: 8px;
+	float: left; 
+	margin-right: 12px;
+}
+
+.min_block2 {
+	width: 150px;
+	height: 260px;
+	display: block;
+	margin-right: 12px;
+	position: relative;
+	float: left;
+}
+
+.min_block2 p {
+	font: 20px/30px "Arsenal-Regular"; 
+	color: #053627;
+	text-align: center;
+
+}
+
+.min_block1 p {
+	font: 20px "Arsenal-Regular"; 
+	color: #053627;
+	text-align: center;
+}
+
+.block2 {
+	height: 709px;
+	width: 50%;
+	display: inline-block;
+}
+
+.block2 h2 {
+	font: 30px "Arsenal-BoldItalic";
+	color: #053627;
+	margin-top: 43px;
+	padding-bottom: 22px;
+	text-align: left;
+}
+
+.block_wrapper3 {
+	width: 487px;
+	height: 260px;
+	margin-top: 44px;
+}
+
+.block_wrapper4 {
+	width: 487px;
+	height: 260px;
+	margin-top: 0px;
+}
+
+.btn1_1correct {
+	margin-top: 20px;
+	padding: 3px 24px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	border: 2px solid #053627;
+	text-decoration: none;
+	color: #053627;
+	margin-left: 400px;
+	font: 18px  "DejaVuSansBook";
+	color: #053627;
+
+}
+.btn1_1correct:hover {
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	border: 2px solid #07523b;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 400px;
+	background: #07523b;
+
+}
+
+.section4_bg2 {
+	height: 350px;
+	margin-top: 64px;
+	background: url(../img2/bg2.jpg) no-repeat center fixed;
+}
+
+.section5_price {
+	width: 100%;
+	max-width: 2000px;
+	height: 477px;
+}
+
+.container4 {
+	height: 593px;
+	width: 100%;
+	max-width: 1113px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.price_wrapper {
+	width: 678px;
+	height: 316px;
+	margin-top: 43px;
+}
+
+.price_block {
+	height: 30px;
+
+}
+
+.price_block h2 {
+	font: 25px "Arsenal-BoldItalic";
+	color: #053627;
+	display: block;
+	text-align: left;
+	width: 369px;
+	float: left;
+}
+
+
+.price_block p {
+	font: 20px "Arsenal-Regular"; 
+	color: #053627;
+	text-align: center;
+	display: block;
+	text-align: right;
+	width: 295px;
+	float: left;
+	margin-top: 5px;
+}
+
+
+.btn1_2correct {
+	margin-top: -67px;
+	padding: 3px 24px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	border: 2px solid #053627;
+	text-decoration: none;
+	margin-left: 335px;
+	font: 18px "DejaVuSansBook";
+	color: #053627;
+}
+
+
+.btn1_2correct:hover {
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	border: 2px solid #07523b;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 310px;
+	background: #07523b;
+
+}
+
+
+
+
+/*.....КОнцовкаю.....*/
+
+
+.The_End {
+	margin-top: 40px;
+	height: 728px;
+	background: url(../img/img_bg4.jpg) no-repeat center;
+
+}
+
+.container5 {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1113px;
+	height: 728px;
+	text-align: center;
+	position: relative;
+}
+
+
+.container5 h3 {
+	font: 30px "Arsenal-BoldItalic";
+	color: #053627;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.container5 p {
+	font: 17px/26px "Arsenal-Regular"; 
+	color: #000000;
+	text-align: left;
+	padding-right: 40px; 
+}
+
+.container5 h1 {
+	padding-top: 200px;
+	font: 40px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	padding-bottom: 32px;
+	position: relative;
+}
+
+
+.btn3 {
+	margin-top: -40px;
+	padding: 3px 24px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #52ac62;
+	text-decoration: none;
+	font: book 18px "DejaVuSansBook";
+	color: #52ac62;
+
+}
+
+
+.action2 a {
+	font: 15px/24px  "DejaVuSansBook";
+	color: #52ac62;
+	text-decoration: none;
+
+}
+
+
+
+.btn3:hover {
+	border: 2px solid #fff;
+	color: #07523b;
+	
+	background: rgba(255,255,255,.9);
+}
+
+.phone_call {
+	width: 290px;
+	height: 50px;
+	margin-left: 416px;
+	margin-top: 40px;
+
+}
+
+.phone_call h3 {
+	font: 25px "DejaVuSansCondensed-Bold", Arial, sans-serif;
+	color: #fff;
+	float: left;
+
+}
+
+.phone_call img {
+	float: left;
+	margin-right: 13px;
+	margin-top: -5px;
+}
+
+.end_menu {
+	width: 1095px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 124px;
+}
+
+.menu_block {
+	width: 155px;
+	height: 77px;
+	border: 2px solid #fff;
+	float: left; 
+	margin-right: 64px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.menu_block:hover {
+	background: rgba(255,255,255,.3);
+
+}
+
+
+.menu_block p { 
+	font: 18px  "DejaVuSansBook";
+	color: #fff;
+	padding: 14px 3px;
+	text-align: center;
+}
+
+.kitchen {
+	margin-top: 10px;
+}
+
+
+footer {
+	height: 40px;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+footer p {
+	margin: 0 auto;
+	position: relative;
+	font: book 18px  "DejaVuSansBook";
+	color: #2b2b2b;
+	text-align: center;
+	margin-top: 11px;
+}
+
+
+
+
+
+
+
+#adaptive_wrapper { 
+	display: none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.container1 {
+		width: 100%;
+		max-width: 960px;
+	}
+
+
+	.slider {
+		height: 300px;
+		width: 960px;
+	}
+
+	.container3 {
+		height: 880px;
+		width: 100%;
+		max-width: 960px;
+	}
+
+	.top_descr {
+		height: 55px;
+		border-bottom: 1px solid #486C61;
+		margin-left: 0% !important;
+	}
+
+
+	.top_descr h2 {
+		font: 34px "Arsenal-Bold";
+		color: #053627;
+		padding-top: 9px;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+
+
+	.block1 {
+
+		max-width: 486px;
+		width: 40%;
+		display: inline-block;
+
+	}
+
+
+
+	.block2 {
+		height: 709px;
+		width: 40%;
+		display: inline-block;
+	}
+
+	.block1 h2 {
+		font: 27px "Arsenal-BoldItalic";
+		color: #053627;
+		margin-top: 16px;
+		padding-bottom: 55px;
+		text-align: left;
+
+	}
+
+
+	.block2 h2 {
+		font: 27px "Arsenal-BoldItalic";
+		color: #053627;
+		margin-top: 15px;
+		padding-bottom: 22px;
+		text-align: left;
+	}
+
+
+	.content img {
+		width: 100%;
+		height: auto;
+	}
+
+	.min_block2 {
+		width: 138px;
+		height: 260px;
+		display: block;
+		margin-right: 12px;
+		position: relative;
+		float: left;
+	}
+
+
+	.min_block1 {
+		width: 138px;
+		height: 235px;
+		display: block;
+		float: left;
+		margin-right: 12px;
+	}
+
+
+
+	.btn1_1correct {
+		margin-top: 0px;
+		padding: 3px 24px;
+		display: block;
+		position: relative;
+		cursor: pointer;
+		border: 2px solid #053627;
+		text-decoration: none;
+		margin-left: 0px;
+		font: 18px "DejaVuSansBook";
+		color: #053627;
+	}
+
+
+
+	.btn1_1correct:hover {
+		display: block;
+		position: relative;
+		cursor: pointer;
+		border: 2px solid #07523b;
+		text-decoration: none;
+		color: #fff;
+		margin-left: 0px;
+		background: #07523b;
+
+	}
+
+	.action1 {
+		margin-top: 10px;
+		width: 43%;
+		margin: 0 30%;
+	}
+
+
+
+	.section4_bg2 {
+		height: 350px;
+		margin-top: -15px;
+		background: transparent url("../img2/bg2.jpg") no-repeat fixed center center;
+	}
+
+
+	.price_wrapper {
+		width: 678px;
+		height: 216px;
+		margin-top: 43px;
+	}
+
+
+	.btn1_2correct {
+		margin-top: 0px;
+		padding: 3px 24px;
+		cursor: pointer;
+		border: 2px solid #053627;
+		text-decoration: none;
+		font: 18px "DejaVuSansBook";
+		color: #053627;
+		margin-left: 0px;
+	}
+
+
+
+	.btn1_2correct:hover {
+		cursor: pointer;
+		border: 2px solid #07523B;
+		text-decoration: none;
+		color: #FFF;
+		background: #07523B none repeat scroll 0% 0%;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.section5_price {
+		width: 100%;
+		max-width: 2000px;
+		height: 372px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 960px) {
+
+	.container1 {
+		width: 100% !important;
+		max-width: 768px !important; 
+
+
+	}
+
+	.slider {
+		height: 300px;
+		width: 768px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	#adaptive_wrapper { 
+		display: block;
+
+	}
+
+	#adaptive_wrapper h1 {
+		display: block;
+		margin-top: 32px;
+
+	}
+
+	.section3_description {
+		width: 100%;
+		max-width: 2000px;
+		height: 1575px;
+	}
+
+
+
+	.block1 {
+		width: 100%;
+		display: inline-block;
+		margin: 0px 5%;
+	}
+
+	.block2 {
+		width: 100%;
+		display: inline-block;
+		margin: 0px 5%;
+	}
+
+	.content {
+		height: 1391px;
+		margin-top: 47px;
+	}
+
+	.top_descr {
+		display: none;
+
+	}
+
+	.btn1_1correct {
+		margin-top: 0px;
+		padding: 3px 24px;
+		display: block;
+		position: relative;
+		cursor: pointer;
+		border: 2px solid #053627;
+		text-decoration: none;
+		margin-left: 0px;
+		font: 16px "DejaVuSansBook";
+		color: #053627;
+	}
+
+	.action1 {
+		width: 64%;
+		margin: 0px 15%;
+	}
+
+
+	.section3_description {
+		width: 100%;
+		max-width: 2000px;
+		height: 1493px;
+	}
+
+	.container3 {
+		height: 880px;
+		width: 100%;
+		max-width: 515px;
+	}
+
+
+	.container4 {
+		margin: 34px auto 0px;
+		height: 100%;
+		width: 100%;
+		max-width: 500px !important;
+		text-align: center;
+		position: relative;
+	}
+
+
+
+	.price_block h2 {
+		font: 21px "Arsenal-BoldItalic";
+		color: #053627;
+		display: block;
+		text-align: left;
+		width: 47%;
+		float: left;
+	}
+
+	.container4 p {
+		font: 13px/17px "Arsenal-Regular";
+		color: #000;
+		text-align: left;
+		padding-right: 40px;
+	}
+
+
+	.btn1_2correct {
+		margin-top: 0px;
+		padding: 3px 24px;
+		cursor: pointer;
+		border: 2px solid #053627;
+		text-decoration: none;
+		font: 16px "DejaVuSansBook";
+		color: #053627;
+		margin-left: 0px;
+	}
+
+
+
+	#adaptive_wrapper {
+		display: block;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	#adaptive_wrapper h1 {
+		display: block;
+		margin-top: 32px;
+		font-size: 28px;
+		text-align: left;
+	}
+
+	#adaptive_wrapper h2 {
+		font-size: 22px;
+	}
+
+	#adapt1 {
+		height: 679px;
+	}
+
+
+
+	.block_wrapper {
+		width: 100%;
+		height: auto;
+	}
+
+	.block1 {
+		height: 594px;
+	}
+
+
+	.block2 {
+		height: 594px;
+
+	}
+	.min_block1 {
+		width: 28%;
+		display: block;
+		float: left;
+		margin-right: 12px;
+
+	}
+
+
+	.block_wrapper2 {
+		width: 100%;
+		height: auto;
+		margin-top: 43px;
+	}
+
+
+	.min_block2 {
+		width: 28%;
+		display: block;
+		margin-right: 12px;
+		position: relative;
+		float: left;
+	}
+
+	.block_wrapper3 {
+		width: 100%;
+		height: 260px;
+		margin-top: 44px;
+	}
+
+	.content {
+		height: 1202px;
+		margin-top: 47px;
+	}
+
+	.section3_description {
+		width: 100%;
+		max-width: 2000px;
+		height: 1365px;
+	}
+
+
+	.section4_bg2 {
+		height: 219px;
+		margin-top: -15px;
+		background: transparent url("../img2/bg2.jpg") no-repeat fixed center center;
+	}
+
+
+	.container4 {
+
+		max-width: 320px !important;
+
+	}
+
+
+	.btn1_2correct {
+		margin-top: 0px;
+		padding: 3px 24px;
+		cursor: pointer;
+		border: 2px solid #053627;
+		text-decoration: none;
+		font: 13px "DejaVuSansBook";
+		color: #053627;
+		margin-left: 0px;
+		width: 89%;
+	}
+
+	.price_block h2 {
+		font: 14px/14px "Arsenal-BoldItalic";
+		color: #053627;
+		display: block;
+		text-align: left;
+		width: 47%;
+		float: left;
+	}
+
+	.price_block {
+		height: 21px;
+	}
+
+	.section5_price {
+		width: 100%;
+		max-width: 2000px;
+		height: 372px;
+		display: none;
+	}
+
+
+
+	#section1 {
+		height: 440px;
+		max-width: 2000px;
+		width: 100%;
+		background: transparent url("../img2/bg1.jpg") no-repeat fixed 0% 0% / cover;
+		position: relative;
+	}
+
+	.The_End {
+		margin-top: 40px;
+		height: 565px;
+		background: transparent url("../img/img_bg4.jpg") no-repeat scroll center center;
+	}
+
+	.container5 {
+		margin: 0px auto;
+		width: 100%;
+		max-width: 360px;
+		height: 607px !important;
+		text-align: center;
+		position: relative;
+	}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width : 400px) {
+
+	.slider_box {
+		height: 953px !important;
+		background: #DDD none repeat scroll 0% 0%;
+	}
+
+
+	.wrap_slider {
+		margin-top: 153px;
+		width: 94%;
+	}
+
+	.slider_box {
+		height: 941px !important;
+		background: #DDD none repeat scroll 0% 0%;
+	}
+
+	#adapt1 {
+		height: 800px !important;
+	}
+
+	#adapt2 {
+		margin-top: 20px;
+	}
+
+
+	.block1 {
+		max-width: 325px;
+		width: 100%;
+		display: inline-block;
+	}
+
+
+	.block2 {
+		width: 91%;
+		display: inline-block;
+		margin: 0px 0%;
+	}
+
+
+	.min_block2 p {
+		font: 13px/20px "Arsenal-Regular";
+		color: #053627;
+		text-align: center;
+	}
+
+	.min_block1 p {
+		font: 13px "Arsenal-Regular";
+		color: #053627;
+		text-align: center;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	.slider_box {
+		height: 953px !important;
+		background: #DDD none repeat scroll 0% 0%;
+	}
+
+
+	.wrap_slider {
+		margin-top: 178px;
+		width: 94%;
+	}
+
+	.slider_box {
+		height: 980px !important;
+		background: #DDD none repeat scroll 0% 0%;
+	}
+
+	#adapt1 {
+		height: 940px !important ;
+	}
+	#adapt2 {
+		margin-top: 45px;
+	}
+
+
+
+
+
+	.btn1_1correct {
+		margin-top: 0px;
+		padding: 3px 24px;
+		display: block;
+		position: relative;
+		cursor: pointer;
+		border: 2px solid #053627;
+		text-decoration: none;
+		margin-left: 0px;
+		font: 14px "DejaVuSansBook";
+		color: #053627;
+	}
+
+
+	.min_block2 p {
+		font: 12px/19px "Arsenal-Regular";
+		color: #053627;
+		text-align: center;
+	}
+
+
+	.min_block1 p {
+		font: 12px "Arsenal-Regular";
+		color: #053627;
+		text-align: center;
+	}
+
+
+	.block2 h2 {
+		font: 21px "Arsenal-BoldItalic";
+		color: #053627;
+		margin-top: 15px;
+		padding-bottom: 22px;
+		text-align: left;
+	}
+
+
+
+
+	.block1 h2 {
+		font: 22px "Arsenal-BoldItalic";
+		color: #053627;
+		margin-top: -23px;
+		padding-bottom: 29px;
+		text-align: left;
+	}
+
+
+
+	.block1 {
+		height: 479px;
+	}
+
+
+
+
+	.content {
+		height: 996px;
+		margin-top: 47px;
+	}
+
+
+
+	.section3_description {
+		width: 100%;
+		max-width: 2000px;
+		height: 1184px;
+	}
+
+
+	.The_End {
+		height: 493px !important;
+		background: url(../img/img_bg4.jpg) no-repeat center;
+	}
+
+
+	.container5 {
+		margin: 0px auto;
+		width: 100%;
+		max-width: 360px;
+		height: 434px !important;
+		text-align: center;
+		position: relative;
+	}
+
+	.phone_call {
+		height: 50px;
+		margin-top: 58px;
+		position: absolute;
+		margin-left: 20% !important;
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
