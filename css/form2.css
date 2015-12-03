@@ -1,5 +1,4 @@
-/* Базовые стили формы */
-form{
+.form2 {
   margin:0 auto;
   max-width:100%; 
   box-sizing:border-box;
@@ -9,23 +8,30 @@ form{
   -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
   box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
 }
+
 /* Стили полей ввода */
-.textbox{
-  height:50px;
-  width:100%;
-  border-radius:3px;
-  border:rgba(0,0,0,.3) 2px solid;
-  box-sizing:border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size:18px; 
-  padding:10px;
-  margin-bottom:30px;  
+.textbox {
+  height: 44px;
+  width: 82%;
+  box-sizing: border-box;
+  font-family: 'Arsenal-Regular', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 21px;
+  background-color: #473421;
+  border:rgba(71,52,33,1) 2px solid;
+  color: #ffffff;
+  text-align: left;
+
 }
+
+
+
 .message:focus,
 .textbox:focus{
   outline:none;
-  border:rgba(71,52,33,1) 2px solid;
-  color:rgba(71,52,33,1);
+  border:#fff 2px solid;
+  color:#fff;
 }
 /* Стили текстового поля */
 .message{
@@ -45,20 +51,19 @@ form{
   overflow:hidden;
 }
 /* Базовые стили кнопки */
-.button{
-  height:50px;
-  width:100%;
-  border-radius:3px;
-  border:rgba(0,0,0,.3) 0px solid;
-  box-sizing:border-box;
-  padding:10px;
-  background:#076f14;
-  color:#FFF;
-  font-family: 'Open Sans', sans-serif;  
-  font-weight:400;
-  font-size: 16pt;
-  transition:background .4s;
-  cursor:pointer;
+.button {
+  height: 45px;
+  width: 83%;
+  border: #fff 2px solid;
+  box-sizing: border-box;
+  padding: 0px;
+  background: rgba(0,0,0,.0);
+  color: #FFF;
+  font-family: 'Arsenal-Regular', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  transition: background .4s;
+  cursor: pointer;
 }
 /* Изменение фона кнопки при наведении */
 .button:hover{
@@ -74,7 +79,7 @@ form{
 
 
 
-
+/*
 
   #popup {
     width: 500px;
@@ -115,3 +120,4 @@ form{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+*/

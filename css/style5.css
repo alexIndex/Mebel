@@ -13,12 +13,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video { 
 	margin: 0; 
 	padding: 0;
-	border: 0; 
+	border: 0;  
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-html {height: 100%;} 
+html {height: 100%;}  
 
 
 ol, ul {list-style: none;}
@@ -35,7 +35,7 @@ ol, ul {list-style: none;}
 }
 
 
-.cleaerfix:before,
+.cleaerfix:before, 
 .clearfix:after{
 	content: " ";
 	display: table;
@@ -502,12 +502,12 @@ form img {
 	overflow: hidden;
 	height: 300px;	
 
-	background: url(../img3/sk2_min.jpg);
+	background: url(../img5/tumb_min.jpg);
 	-webkit-transition-property: background;
 	-webkit-transition-duration: 1s;
 	-webkit-transition-timing-function: ease;
 
-	background: url(../img3/sk2_min.jpg);
+	background: url(../img5/tumb_min.jpg);
 	-moz-transition-property: background;
 	-moz-transition-duration: 1s;
 	-moz-transition-timing-function: ease;
@@ -592,12 +592,12 @@ form img {
 	
 
 
-	background: url(../img3/sk1_min.jpg);
+	background: url(../img5/myag_min.jpg);
 	-webkit-transition-property: background;
 	-webkit-transition-duration: 1s;
 	-webkit-transition-timing-function: ease;
 
-	background: url(../img3/sk1_min.jpg);
+	background: url(../img5/myag_min.jpg);
 	-moz-transition-property: background;
 	-moz-transition-duration: 1s;
 	-moz-transition-timing-function: ease;
@@ -635,12 +635,12 @@ form img {
 
 
 
-		background: url(../img3/sk3_min.jpg);
+		background: url(../img5/sten_min.jpg);
 		-webkit-transition-property: background;
 		-webkit-transition-duration: 1s;
 		-webkit-transition-timing-function: ease;
 
-		background: url(../img3/sk3_min.jpg);
+		background: url(../img5/sten_min.jpg);
 		-moz-transition-property: background;
 		-moz-transition-duration: 1s;
 		-moz-transition-timing-function: ease;
@@ -1197,7 +1197,7 @@ form img {
 			text-decoration: none;
 			font: 18px "DejaVuSansBook";
 			color: #053627;
-			width: 83%;
+			width: 84%;
 			margin-bottom: 20px;
 		}
 
